@@ -1,0 +1,13 @@
+body{
+    /*learn how to use external fonts*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-size: 19px;
+}
+
+footer{
+    background-color: darkgreen;
+    color: white;
+}
