@@ -1,0 +1,36 @@
+/* Wildcard Selector - Selects all elements 
+* {
+    text-align: center;
+}
+
+/* Type selector for all <p> tags */
+p {
+    font-size: 18px;
+}
+
+/* ID selector for the main heading */
+#main-heading {
+    color: blue;
+    font-size: 32px;
+}
+
+/* Class selector for elements with the class "text-red" */
+.text-red {
+    color: red;
+}
+
+/* Descendant selector: targets <p> elements inside a <div> */
+div p {
+    color: green;
+}
+
+/* Attribute selector: targets all <a> elements with an href attribute */
+a[href] {
+    color: purple;
+    text-decoration: none;
+}
+
+/* Group selector for <h1>, <h2>, and <h3> */
+h1, h2, h3 {
+    color: black;
+}

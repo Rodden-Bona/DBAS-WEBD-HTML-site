@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- HTML -->
+<div class="slideshow-container">
+    <img class="mySlides" src="images/img_snowtops.jpg">
+    <img class="mySlides" src="images/img_lights.jpg">
+    <img class="mySlides" src="images/img_mountains.jpg">
+    <img class="mySlides" src="images/img_forest.jpg">
+    <img class="mySlides" src="images/image3.png">
+    <button class="w3-button w3-display-left" onclick="plusDivs(-1)">❮</button>
+    <button class="w3-button w3-display-right" onclick="plusDivs(1)">❯</button>
+</div>
+
+<!-- JavaScript -->
+<script>
+    var slideIndex = 0;
+    carousel()
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+    
+</body>
+</html>
+
