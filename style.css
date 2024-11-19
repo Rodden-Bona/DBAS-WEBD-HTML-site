@@ -1,14 +1,59 @@
 body{
-    /*learn how to use external fonts*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: white;
 }
 
-p{
-    font-size: 19px;
+header{
+    display: grid;
+    grid-template-columns: minmax(178px,178px) 1fr;
+    gap: 32px;
+    text-align: right;
+}
+
+header nav a{
+    padding: 8px;
+    color: black;
+}
+
+.hero_headline{
+    font-family: "Julois Sans One, sans-serif";
+}
+
+.julius-sans-one-regular {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.Seperator{
+    height: 4px;
+    background-color: #089968;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: #089968;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+    color: white;
+}
+
+.nav_footer{
+    display: block;
+}
+
+footer nav a{
+    display: block;
+    color: white;
 }
 
 footer{
-    background-color: darkgreen;
+    background-color: #089968;
     color: white;
 }
 
