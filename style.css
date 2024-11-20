@@ -55,5 +55,11 @@ footer nav a{
 footer{
     background-color: #089968;
     color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
+.footer_contact{
+    padding: 16px 16px;
+    color: white;
+}
