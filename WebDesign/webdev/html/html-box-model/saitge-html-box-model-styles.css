@@ -1,0 +1,54 @@
+/* styles.css */
+
+/* General body and text styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.main-content {
+    display: inline;
+   
+}
+/* Base styling for the boxes */
+.box {
+    font-weight: bold;
+    color: white;
+    max-width: 600px;
+}
+
+/* Content Box */
+.content-box {
+    background-color: #8cb6c0
+}
+
+/* Padding Box */
+.padding-box {
+    background-color: #c3d08b;
+    padding: 40px;
+}
+
+/* Border Box */
+.border-box {
+    background-color: #fddd9b;
+    padding: 40px;
+}
+
+/* Margin Box */
+.margin-box {
+    background-color: #f9cc9d;
+    padding: 40px;
+}
+
+/* Descriptions of each part of the box model */
+.box-description {
+    text-align: left;
+    font-weight: bold;
+    color: white;
+}

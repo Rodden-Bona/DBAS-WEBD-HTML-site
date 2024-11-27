@@ -1,0 +1,105 @@
+/* styles.css */
+
+/* General styling for the document */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Heading styles */
+h1, h2 {
+    color: #333;
+}
+
+/* Block Example */
+.block-example {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #f4a261;
+    color: white;
+    text-align: center;
+    /* Block elements take up the full width available */
+}
+
+/* Inline Example */
+.inline-example {
+    display: inline;
+    padding: 24px;
+    background-color: #2a9d8f;
+    color: white;
+    margin: 25px;
+    /* Inline elements only take up as much width as they need */
+}
+
+/* Inline-Block Example */
+/* Inline-block elements respect width and height, but flow like inline elements */
+.inline-block-example {
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+    background-color: #e76f51;
+    color: white;
+    margin: 10px;
+    
+}
+
+/* Flexbox Example */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #264653;
+    padding: 20px;
+}
+
+.flex-item {
+    background-color: #e9c46a;
+    color: #333;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    /* Flexbox items stretch and adjust their positions inside the container */
+}
+
+/* Grid Example */
+.grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Create two columns with the first one twice as wide as the second */
+    gap: 10px;
+    background-color: #2a9d8f;
+    padding: 10px;
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* Create two columns with the first one twice as wide as the second */
+    gap: 10px;
+    background-color: #2a9d8f;
+    padding: 10px;
+}
+.grid-container3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* Create a responsive layout with columns that are at least 200px wide */
+    gap: 10px;
+    background-color: #2a9d8f;
+    padding: 10px;
+}
+.grid-container4 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    /* Create four columns with the even columns twice as wide as the odd columns */
+    gap: 10px;
+    background-color: #2a9d8f;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #f4a261;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    /* Grid items are placed in a two-column layout with gaps between them */
+}

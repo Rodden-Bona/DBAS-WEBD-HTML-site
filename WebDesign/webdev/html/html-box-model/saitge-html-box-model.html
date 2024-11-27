@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Demonstration</title>
+    <link rel="stylesheet" href="saitge-html-box-model-styles.css">
+</head>
+<body>
+    <h1>CSS Box Model Demonstration</h1>
+
+    <!-- The main box to demonstrate the box model -->
+    <div class="main-content">
+        <div class="box margin-box">
+            <div class="box border-box">
+                <div class="box padding-box">
+                        Padding
+                    <div class="box content-box">
+                        Content
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <!-- Description of each box model part -->
+        <div class="box-description">
+            <div class="box content-box">
+                <p><strong>Content:</strong> The innermost box where the actual content is displayed (text, images, etc.).</p>
+            </div>
+            <div class="box padding-box">
+                <p><strong>Padding:</strong> The space between the content and the border.</p>
+            </div>
+            <div class="box border-box">
+                <p><strong>Border:</strong> The visible line surrounding the padding and content.</p>
+            </div>
+            <div class="box margin-box">
+                <p><strong>Margin:</strong> The space outside the border, separating this element from others.</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

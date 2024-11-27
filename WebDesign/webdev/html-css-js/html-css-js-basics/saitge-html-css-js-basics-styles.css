@@ -1,0 +1,73 @@
+/* styles.css */
+
+/* CSS Selector by element name */
+body {
+    font-family: Arial, sans-serif;
+    /* Applying a general font for the body text */
+    background-color: #f4f4f4;
+    /* Light gray background for the body */
+}
+
+/* CSS Selector by element name */
+h1 {
+    color: #333;
+    /* Dark color for the heading */
+}
+
+/* CSS Selector by class name */
+.button-state {
+    color: #dc0c0c;
+    /* Red color for the message */
+}
+
+/* CSS Selector by class name */
+.logo-area {
+    background-color: #004477;
+    /* Light gray background for the body */
+}
+
+/* CSS Selector by element name */
+p {
+    font-size: 16px;
+    color: #555;
+    /* Styling paragraphs with a slightly smaller font and gray text */
+    line-height: 1.6;
+}
+
+/* CSS Selector by element name */
+a {
+    color: #0066cc;
+    text-decoration: none;
+    /* Styling the anchor links with a blue color and removing the underline */
+}
+
+/* CSS Selector by element name and state */
+a:hover {
+    text-decoration: underline;
+    /* Underline the link when hovered */
+}
+
+/* CSS Selector by element name */
+ul, ol {
+    margin-left: 20px;
+    /* Adding some space to the left for the lists */
+}
+
+/* CSS Selector by element name */
+button {
+    display: inline;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Styling the button */
+}
+
+/* CSS Selector by element name and state */
+button:hover {
+    background-color: #218838;
+    /* Change the button color when hovered */
+}

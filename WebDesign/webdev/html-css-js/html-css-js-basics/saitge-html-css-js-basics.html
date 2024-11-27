@@ -1,0 +1,71 @@
+<!--
+    The HTML structure is the foundation of every webpage. 
+    It begins with a <!DOCTYPE html> declaration, 
+    followed by the <html>, <head>, and <body> tags. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Elements Tutorial</title>
+    <!-- The title you see on the browser tab -->
+    <link rel="stylesheet" href="saitge-html-css-js-basics-styles.css">
+    <!-- Linking external CSS file -->
+</head>
+<body>
+    <div class="logo-area">
+        <img src="saitge-nscc-logo-wht.png" alt="NSCC Logo - A description of the image">
+    </div>
+        <!-- Key Points about the <div> Tag:  
+        Container Element: The <div> tag is primarily used to group 
+        block-level elements to format them with CSS or to manipulate 
+        them with JavaScript.
+
+        Block-Level Element: By default, <div> is a block-level element, 
+        meaning it starts on a new line and takes up the full width available.
+        
+        Styling and Layout: You can apply CSS styles to a <div> to control its 
+        appearance, such as background color, borders, margins, padding, and more.
+        
+        Class and ID Attributes: The <div> tag often uses the class and id 
+        attributes to apply specific styles or to target the element with 
+        JavaScript. -->
+    <h1>Welcome to HTML CSS and JavaScript Basics!</h1>
+    <!-- This is a level-1 heading. It is often used as the main title of the webpage. -->
+
+    <p>This is a simple paragraph to demonstrate the usage of <strong>HTML elements</strong>.</p>
+    <!-- Paragraphs contain text. The <strong> tag is used to bold words. -->
+
+    <a href="https://www.example.com" rel="noopener" target="_blank">Visit Example Website</a>
+    
+    <!-- Anchor tags (<a>) create links. The 'href' attribute specifies the link's destination. -->
+    <!-- The 'target="_blank"' makes the link open in a new tab. 
+        Use rel="noopener" when using target="_blank"-->
+
+    <ul>
+        <!-- Unordered List -->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <!-- <ul> creates an unordered list with bullet points, and <li> is for each list item. -->
+
+    <ol>
+        <!-- Ordered List -->
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+    <!-- <ol> creates an ordered list with numbers. -->
+
+    <button type="button" id="clickMe">Click Me</button>
+    <!-- Button element with an id attribute. We will use this with JavaScript. -->
+    <div id="button_status" class="button-state"></div>
+    <script src="saitge-html-css-js-basics-script.js"></script>
+    <!-- Linking an external JavaScript file to add interactivity. The HTML
+    elements must be loaded into the document object model (DOM) before any execution 
+    of javascript.  Without an event listener to monitor the DOM, reference to
+    the javascript must be at the end of the body -->
+</body>
+</html>
