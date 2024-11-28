@@ -1,0 +1,11 @@
+p {font-size: 19px;}
+h1 {font-size: 2em;}
+h2 {font-size: 1.6em;}
+h3 {font-size: 1.3em;}
+h4 {font-size: 1.15px;}
+h5 {font-size: 1.05px;}
+h6 {font-size: .95px;}
+
+.container {
+    width: 490px;
+}
