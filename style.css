@@ -16,6 +16,11 @@ header nav a{
     color: black;
 }
 
+.logo{
+    width: 30vw;
+    height: auto;
+}
+
 .hero_headline{
     font-family: "Julois Sans One, sans-serif";
 }
@@ -75,3 +80,4 @@ footer{
     padding: 16px 16px;
     color: white;
 }
+
