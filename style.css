@@ -45,6 +45,7 @@ button{
 
 img{
     width: 100vw;
+    height: auto;
 }
 
 .nav_footer{
@@ -61,7 +62,7 @@ footer{
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: auto;
+    height: 100%;
 }
 
 .footer_contact{
