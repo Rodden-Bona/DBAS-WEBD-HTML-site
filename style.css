@@ -43,6 +43,10 @@ button{
     color: white;
 }
 
+img{
+    width: 100vw;
+}
+
 .nav_footer{
     display: block;
 }
