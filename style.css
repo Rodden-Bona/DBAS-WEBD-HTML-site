@@ -52,11 +52,13 @@ a{
 button{
     background-color: #089968;
     border: none;
-    padding: 8px 16px;
+    padding: 2vw 8vw;
     border-radius: 30px;
     color: white;
     text-align: center;
     position: relative;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
 }
 
 .nav_footer{
