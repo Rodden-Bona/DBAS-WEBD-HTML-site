@@ -55,7 +55,8 @@ button{
     padding: 8px 16px;
     border-radius: 30px;
     color: white;
-    
+    text-align: center;
+    position: relative;
 }
 
 .nav_footer{
