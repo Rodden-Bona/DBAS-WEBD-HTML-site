@@ -20,6 +20,15 @@ header nav a{
     font-family: "Julois Sans One, sans-serif";
 }
 
+.hero{
+    width: 100vw;
+    height: auto;
+}
+
+.main{
+    display: inline-flex
+}
+
 .julius-sans-one-regular {
     font-family: "Julius Sans One", sans-serif;
     font-weight: 400;
@@ -41,11 +50,7 @@ button{
     padding: 8px 16px;
     border-radius: 30px;
     color: white;
-}
-
-img{
-    width: 25vw;
-    height: auto;
+    
 }
 
 .nav_footer{
@@ -58,6 +63,7 @@ footer nav a{
 }
 
 footer{
+    display: inline-flexbox;
     background-color: #089968;
     color: white;
     display: grid;
